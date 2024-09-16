@@ -3,7 +3,7 @@ import express from 'express';
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.send('Contacts route 1');
+    res.send('Contacts route');
 });
 
 // Get all contacts

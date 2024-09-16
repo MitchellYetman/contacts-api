@@ -11,11 +11,7 @@ app.use(express.static('public'));
 
 //routes
 app.use('/api/contacts', contactsRouter);
-app.use('/api/contacts/all', contactsRouter);
-app.use('/api/contacts/:id', contactsRouter);
-app.use('/api/contacts/create', contactsRouter);
-app.use('/api/contacts/update', contactsRouter);
-app.use('/api/contacts/delete', contactsRouter);
+
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);
